@@ -8,7 +8,7 @@ node {
 
    // Get some code from a GitHub repository
    git url: 'https://github.com/kesselborn/jenkinsfile'
-   bat 'git clean -fdx; sleep 4;'
+   bat 'git clean -fdx sleep 4'
 
    // Get the maven tool.
    // ** NOTE: This 'mvn' maven tool must be configured
